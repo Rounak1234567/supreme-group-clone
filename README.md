@@ -2,6 +2,12 @@
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+A responsive and performance-optimized clone of the Supreme Group website built with Next.js and Tailwind CSS.
+
+## 🔗 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20Project-blue?style=for-the-badge)](https://supreme-group-clone.vercel.app/)
+
 ---
 
 ## ⚙️ Project Setup Instructions
