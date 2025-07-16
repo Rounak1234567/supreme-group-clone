@@ -7,6 +7,10 @@ import About from "@/components/About";
 import GetInTouch from "@/components/GetInTouch";
 import AboutSection from "@/components/AboutSection/AboutSection";
 
+export const metadata = {
+  title: 'Supreme Group Clone',
+};
+
 export default function Home() {
   return (
     <div >
