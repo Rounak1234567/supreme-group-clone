@@ -60,6 +60,9 @@ This approach ensures that the user experience remains seamless and visually app
 
 To ensure fast load times and efficient resource usage, the project incorporates several performance optimization strategies:
 
+- **Framer Motion for Animations**:  
+  Integrated [Framer Motion](https://www.framer.com/motion/) for smooth, performant animations. Used it to animate content transitions, entrance effects, and UI interactions with fine-grained control, improving the user experience without sacrificing performance.
+
 - **Next.js `<Image>` Component**:  
   Utilized for all image rendering to benefit from automatic lazy loading, optimized image delivery, and responsive sizing, significantly improving page performance and reducing Largest Contentful Paint (LCP).
 
