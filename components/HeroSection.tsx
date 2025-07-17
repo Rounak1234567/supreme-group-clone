@@ -1,3 +1,7 @@
+'use client';
+
+import { motion } from 'framer-motion';
+
 const HeroSection: React.FC = () => {
   return (
     <div className="relative w-full h-[695px] overflow-hidden">
@@ -14,8 +18,13 @@ const HeroSection: React.FC = () => {
       {/* Overlay for better text visibility */}
       <div className="absolute inset-0 bg-black bg-opacity-40 z-10" />
 
-      {/* Text Content */}
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white z-20 px-4">
+      {/* Animated Text Content */}
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: 'easeOut' }}
+        className="absolute inset-0 flex flex-col justify-center items-center text-center text-white z-20 px-4"
+      >
         <p className="text-base md:text-lg font-normal mb-2 tracking-wide">
           Driven by performance
         </p>
@@ -26,7 +35,7 @@ const HeroSection: React.FC = () => {
         <p className="text-base md:text-2xl font-normal">
           for seamless rides
         </p>
-      </div>
+      </motion.div>
     </div>
   );
 };
