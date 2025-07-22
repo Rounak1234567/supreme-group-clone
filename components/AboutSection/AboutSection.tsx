@@ -23,7 +23,7 @@ const AboutSection = () => {
                             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
                             transition={{ duration: 3, ease: 'easeIn' }}
                         >
-                            <p className="text-center text-2xl md:text-5xl font-light leading-relaxed">
+                            <p className="text-center md:text-5xl text-xl font-light leading-relaxed">
                                 Evolving the drive with <span className="font-semibold">360-degree</span><br />
                                 comprehensive solutions
                             </p>
