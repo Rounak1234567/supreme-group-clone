@@ -15,7 +15,7 @@ const AboutSection = () => {
         <VehicleProvider>
             <section className="bg-black text-white min-h-screen flex flex-col px-6 relative">
                 {/* Sticky Animated Heading Section */}
-                <div className="h-screen flex items-center justify-center mb-2000">
+                <div className="min-h-[150vh] flex items-center justify-center mb-2000">
                     <div className="sticky top-20 w-full z-20" ref={headingRef}>
                         <motion.div
                             className="w-full bg-black text-white flex items-center justify-center"
